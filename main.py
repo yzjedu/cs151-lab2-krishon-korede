@@ -33,7 +33,7 @@ print('Population changed by', pop_change, 'people')
 
 # Code should calculate future population and print it.
 
-future_pop = (current_population_size + pop_change)
+future_pop = (current_population_size + int(pop_change))
 print('The future population is', int(future_pop))
 
 # Code should use "if" statement to compare results of/
