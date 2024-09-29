@@ -6,7 +6,7 @@
 # (a certain number of years away) for a country based on a current population amount if you are given (1)/
 # how often someone is born (in seconds), how often someone dies (in seconds), and (3) how often a new immigrant/
 # joins the country (in seconds).
-
+#The purpose of the program is to give the population change when the user enters 5 values.
 #Data In: Code needs inputs of seconds between births, seconds between deaths, seconds between immigration,/
 #current population size, and number of years in the future
 #Data Out: Code outputs population change (for fun!) and future population
@@ -34,7 +34,7 @@ print('Population changed by', pop_change, 'people')
 # Code should calculate future population and print it.
 
 future_pop = (current_population_size + pop_change)
-print('The future population is', future_pop)
+print('The future population is', int(future_pop))
 
 # Code should use "if" statement to compare results of/
 # population change and future calculation to output various statements
