@@ -1,4 +1,4 @@
-# LAB-2 Feedback
+«¡∑«¡∑# LAB-2 Feedback
 | Test Case	| birth	| death	| immigration	| current pop	| years	| future	| increase/decrease |
 |-----------|-------|-------|---------------|---------------|-------|-----------|-------------- |
 | 1	        | 2	    | 1	    | 2	            | 0	            | 5	    | 0	        | stays same, or no output|
@@ -28,7 +28,8 @@
 |**-NO**| Nothing is typecast to an int during calculation (fine at end for output or to typecast input as int)|
 
 ### Comments on the grading
-- There is a slight mismatch between the algorithm and the code. That is a reason for a revision. 
+- There is a slight mismatch between the algorithm and the code. 
+- That is a reason for a revision. 
 - Address all the NOs in this document. 
 - 
-### Grade: R
+### Grade: M
