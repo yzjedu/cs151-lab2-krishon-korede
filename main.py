@@ -6,6 +6,7 @@
 # (a certain number of years away) for a country based on a current population amount if you are given (1)/
 # how often someone is born (in seconds), how often someone dies (in seconds), and (3) how often a new immigrant/
 # joins the country (in seconds).
+
 #The purpose of the program is to give the population change when the user enters 5 values.
 #Data In: Code needs inputs of seconds between births, seconds between deaths, seconds between immigration,/
 #current population size, and number of years in the future
@@ -13,6 +14,8 @@
 
 # User should be prompted to enter in five inputs: seconds between births, seconds between deaths,/
 # seconds between immigration current population size, and number of years in the future.
+
+print('This program computes the change in population of a country over time.')
 
 sec_year = 31536000
 print('How many seconds between births?')
@@ -44,4 +47,4 @@ if future_pop > current_population_size:
 elif future_pop < current_population_size:
     print('Your current population decreased!')
 else:
-    print('Your current population same!')
+    print('Your current population is the same!')
